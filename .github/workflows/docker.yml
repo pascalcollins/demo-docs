@@ -13,7 +13,7 @@ jobs:
         with:
           dockerfile: Dockerfile
           path: .
-          username: jamct
+          username: pascal.collins@gmx.de
           password: ${{ secrets.GITHUB_TOKEN }}
           repository: pascalcollins/demo-docs/mkdocs
           registry: docker.pkg.github.com
